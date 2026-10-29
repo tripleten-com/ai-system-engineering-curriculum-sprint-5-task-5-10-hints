@@ -26,19 +26,19 @@ The decision field says `pending` until the review. After it, it says `accepted`
 
 ### The six values don't match the candidate
 
-<details><summary>Move 1</summary>
+<details><summary>Hint 1</summary>
 
 Did your command read them from the record, or were any typed?
 
 </details>
 
-<details><summary>Move 2</summary>
+<details><summary>Hint 2</summary>
 
 Does the command read the record from the path the verifier uses?
 
 </details>
 
-<details><summary>Move 3</summary>
+<details><summary>Hint 3</summary>
 
 Regenerate the manifest with the command, compare it line by line with the record, and commit both together.
 
@@ -46,19 +46,19 @@ Regenerate the manifest with the command, compare it line by line with the recor
 
 ### The command writes a manifest for a candidate that doesn't hold
 
-<details><summary>Move 1</summary>
+<details><summary>Hint 1</summary>
 
 What does your command check before it writes?
 
 </details>
 
-<details><summary>Move 2</summary>
+<details><summary>Hint 2</summary>
 
 Which code already knows whether the candidate matches the running containers?
 
 </details>
 
-<details><summary>Move 3</summary>
+<details><summary>Hint 3</summary>
 
 Call that code first. If it finds any mismatch, print what didn't match and exit without writing.
 
@@ -66,19 +66,19 @@ Call that code first. If it finds any mismatch, print what didn't match and exit
 
 ### Rerunning the command would reset the decision
 
-<details><summary>Move 1</summary>
+<details><summary>Hint 1</summary>
 
 What should the command do if a manifest is already there?
 
 </details>
 
-<details><summary>Move 2</summary>
+<details><summary>Hint 2</summary>
 
 What if that manifest says `accepted` for the same tag?
 
 </details>
 
-<details><summary>Move 3</summary>
+<details><summary>Hint 3</summary>
 
 Refuse in that case, and say that a fix needs a new candidate and then a new manifest.
 
@@ -86,19 +86,19 @@ Refuse in that case, and say that a fix needs a new candidate and then a new man
 
 ### The decision field breaks the seven-field rule
 
-<details><summary>Move 1</summary>
+<details><summary>Hint 1</summary>
 
 How can one top-level field hold a value, and later a value and a date?
 
 </details>
 
-<details><summary>Move 2</summary>
+<details><summary>Hint 2</summary>
 
 Would a small nested block, or one value with the date beside it, keep the count at seven?
 
 </details>
 
-<details><summary>Move 3</summary>
+<details><summary>Hint 3</summary>
 
 Choose one shape, write it in the comment at the top, and make the verifier accept exactly that shape and nothing else.
 
@@ -106,19 +106,19 @@ Choose one shape, write it in the comment at the top, and make the verifier acce
 
 ### Your verifier fails before any manifest exists
 
-<details><summary>Move 1</summary>
+<details><summary>Hint 1</summary>
 
 Is a missing manifest a mismatch, or a state the verifier should report?
 
 </details>
 
-<details><summary>Move 2</summary>
+<details><summary>Hint 2</summary>
 
 What does the lesson say about this case?
 
 </details>
 
-<details><summary>Move 3</summary>
+<details><summary>Hint 3</summary>
 
 When the file doesn't exist, print that it's missing, skip the manifest rows, and keep the exit code driven by the candidate's rows.
 
@@ -126,19 +126,19 @@ When the file doesn't exist, print that it's missing, skip the manifest rows, an
 
 ### You can't make the verifier fail without editing the manifest
 
-<details><summary>Move 1</summary>
+<details><summary>Hint 1</summary>
 
 Can the verifier read a manifest from a path you give it?
 
 </details>
 
-<details><summary>Move 2</summary>
+<details><summary>Hint 2</summary>
 
 Where could you put a changed copy so the repository stays untouched?
 
 </details>
 
-<details><summary>Move 3</summary>
+<details><summary>Hint 3</summary>
 
 Copy the manifest somewhere outside the repository, change one value, run the verifier against the copy, and keep that output.
 

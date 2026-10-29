@@ -34,19 +34,19 @@ The break loop uses only the command that runs your tests. It starts no build, s
 
 ### The six-field tests break on the next candidate
 
-<details><summary>Move 1</summary>
+<details><summary>Hint 1</summary>
 
 Where do the tests get their expected values?
 
 </details>
 
-<details><summary>Move 2</summary>
+<details><summary>Hint 2</summary>
 
 If a digest is typed into the test, which copy goes stale when you record again?
 
 </details>
 
-<details><summary>Move 3</summary>
+<details><summary>Hint 3</summary>
 
 Load the candidate record in the test and compare each manifest field with the record's value of the same name.
 
@@ -54,19 +54,19 @@ Load the candidate record in the test and compare each manifest field with the r
 
 ### A test passes when the check rejects every manifest
 
-<details><summary>Move 1</summary>
+<details><summary>Hint 1</summary>
 
 Is there a test that a good manifest passes?
 
 </details>
 
-<details><summary>Move 2</summary>
+<details><summary>Hint 2</summary>
 
 Does each rejection test check which field the check named?
 
 </details>
 
-<details><summary>Move 3</summary>
+<details><summary>Hint 3</summary>
 
 Add the passing test, assert the field name in every rejection, then make the check reject everything and watch the passing test fail.
 
@@ -74,19 +74,19 @@ Add the passing test, assert the field name in every rejection, then make the ch
 
 ### After your last edit, the verifier no longer passes
 
-<details><summary>Move 1</summary>
+<details><summary>Hint 1</summary>
 
 Which tag was the stack started with for your final `poe verify`?
 
 </details>
 
-<details><summary>Move 2</summary>
+<details><summary>Hint 2</summary>
 
 What does the release verifier compare when the running tag isn't the candidate's?
 
 </details>
 
-<details><summary>Move 3</summary>
+<details><summary>Hint 3</summary>
 
 Cite the passing verifier output from the run started under the candidate's tag, and say in your note that the final `poe verify` ran under a scratch tag, and why.
 

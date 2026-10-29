@@ -35,19 +35,19 @@ If your instructor shared a solution guide for any Task, the overview says so to
 
 ### An earlier note doesn't answer one of the questions
 
-<details><summary>Move 1</summary>
+<details><summary>Hint 1</summary>
 
 Does the lesson ask you to fix that note, or to say where it's thin?
 
 </details>
 
-<details><summary>Move 2</summary>
+<details><summary>Hint 2</summary>
 
 For that gap, what's the answer you'd give now? Where's the evidence for it?
 
 </details>
 
-<details><summary>Move 3</summary>
+<details><summary>Hint 3</summary>
 
 Add it to this Task's note as one line: the Task, the question, your answer, and where the evidence is.
 
@@ -55,19 +55,19 @@ Add it to this Task's note as one line: the Task, the question, your answer, and
 
 ### You can't find a pull request number
 
-<details><summary>Move 1</summary>
+<details><summary>Hint 1</summary>
 
 Open your repository's pull requests, including closed and merged ones.
 
 </details>
 
-<details><summary>Move 2</summary>
+<details><summary>Hint 2</summary>
 
 Which pull request merged each Task's branch into `main`?
 
 </details>
 
-<details><summary>Move 3</summary>
+<details><summary>Hint 3</summary>
 
 Search the merged pull requests by branch name or by the evidence note's path.
 
@@ -75,19 +75,19 @@ Search the merged pull requests by branch name or by the evidence note's path.
 
 ### Your answers read like memories
 
-<details><summary>Move 1</summary>
+<details><summary>Hint 1</summary>
 
 For each sentence in your four answers, which note and which Task shows it?
 
 </details>
 
-<details><summary>Move 2</summary>
+<details><summary>Hint 2</summary>
 
 If no note shows it, what's the claim resting on?
 
 </details>
 
-<details><summary>Move 3</summary>
+<details><summary>Hint 3</summary>
 
 Rewrite each answer so every claim names a note and a Task, or move the unsupported claim to your gap list.
 
@@ -95,19 +95,19 @@ Rewrite each answer so every claim names a note and a Task, or move the unsuppor
 
 ### The limits list is short
 
-<details><summary>Move 1</summary>
+<details><summary>Hint 1</summary>
 
 Go through every note's **What I'd defend**. Which stand-ins did you use?
 
 </details>
 
-<details><summary>Move 2</summary>
+<details><summary>Hint 2</summary>
 
 For each stand-in, what did it stop you from seeing? Think of the emulator, LocalStack, the local token issuer and one sample of a hosted model.
 
 </details>
 
-<details><summary>Move 3</summary>
+<details><summary>Hint 3</summary>
 
 Collect every limit, one line each, with the Task it comes from.
 
@@ -115,19 +115,19 @@ Collect every limit, one line each, with the Task it comes from.
 
 ### You're not sure how to report a solution guide you used
 
-<details><summary>Move 1</summary>
+<details><summary>Hint 1</summary>
 
 Did your note for that Task already say so?
 
 </details>
 
-<details><summary>Move 2</summary>
+<details><summary>Hint 2</summary>
 
 Which part of that Task did the guide cover?
 
 </details>
 
-<details><summary>Move 3</summary>
+<details><summary>Hint 3</summary>
 
 Repeat it in the overview with the Task and the part. At Final Demo Day you'll explain those parts like any other.
 
@@ -135,19 +135,19 @@ Repeat it in the overview with the Task and the part. At Final Demo Day you'll e
 
 ### You're not sure what the decision pull request may change
 
-<details><summary>Move 1</summary>
+<details><summary>Hint 1</summary>
 
 Which single field records your instructor's decision?
 
 </details>
 
-<details><summary>Move 2</summary>
+<details><summary>Hint 2</summary>
 
 What should a reviewer see in the diff of that pull request, and nothing more?
 
 </details>
 
-<details><summary>Move 3</summary>
+<details><summary>Hint 3</summary>
 
 Say out loud what your tests will check on it: the seven fields, the six against the candidate, and `accepted` with a date as an allowed decision.
 
