@@ -90,7 +90,7 @@ The CI workflow file must stay exactly as the template supplied it. Compare your
 
 ## In this Task
 
-<details><summary>The release verifier fails after your final `poe verify`</summary>
+<details><summary>The release verifier fails after your final <code>poe verify</code></summary>
 
 Which tag did that run start the stack with? The verifier compares the running containers with the candidate. Keep the passing verifier output from the run started with the candidate's tag.
 
